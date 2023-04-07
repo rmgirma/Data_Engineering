@@ -1,3 +1,3 @@
-def sum(x, y):
-        return(x+y)
-print(sum(sum(1,2), sum(3,4)))
+for x in range(10):
+    for y in range(x):
+        print(y)

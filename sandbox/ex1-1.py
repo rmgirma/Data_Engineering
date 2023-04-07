@@ -1,4 +1,4 @@
-str1 = "ababababacacafffaahahtatatatatatatata"
+str1 = "ababababacacafffaahahtatatatatatatahgjhghjgfh hgfdhgffyttyfytyta"
 
 # create a result dictionary
 char_dict = dict()

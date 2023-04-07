@@ -73,3 +73,5 @@ print(max_elevation_city(100000))  # Should print "Cusco, Peru"
 print(max_elevation_city(1000000))  # Should print "Sofia, Bulgaria"
 print(max_elevation_city(10000000))  # Should print ""
 
+mystring = "My Name is Robel " * 10
+print(mystring)

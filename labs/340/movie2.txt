@@ -14,7 +14,7 @@
     "Pulp Fiction": {
         "year": 1994,
         "genre": "Crime",
-        "director": "Quentin Tarantino",
+        "director": "Quentin Tarantino1",
         "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"]
     }
 }

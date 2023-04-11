@@ -20,7 +20,6 @@ def add_movie():
     }
     
     print(f"{title} has been added to the database.")
-
 # Function to edit an existing movie in the database
 def edit_movie():
     title = input("Enter the movie title to edit: ")

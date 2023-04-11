@@ -131,24 +131,3 @@ while True:
         exit()
     else:
         print("Invalid choice. Please try again.")
-
-movies = {
-    "The Dark Knight": {
-        "year": 2008,
-        "genre": "Action",
-        "director": "Christopher Nolan",
-        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
-    },
-    "Inception": {
-        "year": 2010,
-        "genre": "Sci-Fi",
-        "director": "Christopher Nolan",
-        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"]
-    },
-    "Pulp Fiction": {
-        "year": 1994,
-        "genre": "Crime",
-        "director": "Quentin Tarantino",
-        "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"]
-    }
-}

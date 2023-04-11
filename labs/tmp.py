@@ -1,3 +1,3 @@
-teacher_names = {"Math": "Aniyah Cook", "Science": "Ines Bisset", "Engineering": "Wayne Branon"}
-a = teacher_names.values()
-print(a)
+genre = "transcendental"
+print(genre[:-8])
+print(genre[-7:9])

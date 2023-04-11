@@ -73,5 +73,47 @@ print(max_elevation_city(100000))  # Should print "Cusco, Peru"
 print(max_elevation_city(1000000))  # Should print "Sofia, Bulgaria"
 print(max_elevation_city(10000000))  # Should print ""
 
-mystring = "My Name is Robel " * 10
+mystring = "My Name is Robel "
 print(mystring)
+print(mystring[4:25])
+
+
+def count_numbers(first, last):
+  # Loop through the numbers from first to last 
+  x = first
+  while x <= last:
+    print(x)
+    x+= 1
+
+count_numbers(0,6)
+
+# Creating a string
+my_string = "This is my string # for Pyton 3.9"
+
+# Reverse the entire string
+reversed_string = my_string[::-1]
+print("Reversed string:", reversed_string)
+
+# Get the last character of the string
+last_character = my_string[-1]
+print("Last character:", last_character)
+
+# Get every other character in the string
+every_other_character = my_string[::2]
+print("Every other character:", every_other_character)
+
+# Check the length of the string
+length = len(my_string)
+print("Length of the string:", length)
+
+# Get the 4th character in the string
+fourth_character = my_string[3]
+print("4th character:", fourth_character)
+
+# Get the 4th character through the 9th character in the string
+fourth_to_ninth = my_string[3:9]
+print("4th to 9th character:", fourth_to_ninth)
+
+# Get the 7th through last character in the string
+seventh_to_last = my_string[6:]
+print("7th to last character:", seventh_to_last)

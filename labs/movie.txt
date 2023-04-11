@@ -3,11 +3,6 @@
         "genre": "Genre1",
         "director": "Director1",
         "release_date": "2023-04-11",
-        "actors": [
-            "Movie1 Actor1",
-            "Movie1 Actor2",
-            "Movie1 Actor3",
-            "Movie1 Actor4"
-        ]
+        "actors": ["Movie1 Actor1", "Movie1 Actor2", "Movie1 Actor3", "Movie1 Actor4" ]
     }
 }

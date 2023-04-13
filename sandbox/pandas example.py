@@ -14,7 +14,7 @@ df.info()
 # print(df.shape[1]) # prints the number of columns
 
 print('000000000000000000000000000000000000')
-df = df[(df['price'] == 0)]
+df = df[(df['price'] !=0)]
 grouped = df.groupby('prime_genre').agg({'price': ['mean', 'min', 'max','count','sum']})   # ['mean', 'min', 'max'] 
 print(df.shape[0]) # prints the number of rows
 print(df.shape[1]) # prints the number of columns

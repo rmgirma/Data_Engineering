@@ -30,18 +30,3 @@ print(len(apps_data[1:]))
 unique_values = set(content_data)
 print(unique_values)
 
-"""
-i = 0
-cnt = 0
-for n in data_list:
-    sdate = data_list[i][1]
-    seen_date = datetime.strptime(sdate, "%m/%d/%Y")
-    par_date = datetime.strptime("01/01/2023", "%m/%d/%Y")
-    if seen_date > par_date:
-        new_data = data_list[i]
-        cnt += 1
-        print(new_data)
-    i += 1
-print(len(data_list))
-print(cnt)
-"""

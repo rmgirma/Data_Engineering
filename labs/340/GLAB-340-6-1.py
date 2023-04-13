@@ -130,3 +130,4 @@ while True:
         exit()
     else:
         print("Invalid choice. Please try again.")
+        print(__file__)

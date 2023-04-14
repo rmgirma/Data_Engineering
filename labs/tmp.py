@@ -39,11 +39,13 @@
 # for letter in unique_letters('hhhello'):
 #     print(letter, end=' ')
 
+def outer(msg):
+    lang = 'Python'
 
-def outer(msg): lang =
-    'Python' def inner():
+    def inner():
         print(lang, msg)
+
     return inner
 
 my_func = outer('is fun!!!')
-my_func()	# output: 'Python is fun!!!'
+my_func()  # output: 'Python is fun!!!'

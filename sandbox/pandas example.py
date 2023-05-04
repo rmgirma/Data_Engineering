@@ -5,7 +5,7 @@ opened_file = open(file_path, encoding="utf8")
 df = pd.read_csv(file_path)
 opened_file.close()
 
-df.info()
+
 # a = df.head()
 # print(a)
 # b = df.tail()
@@ -14,10 +14,10 @@ df.info()
 # print(df.shape[1]) # prints the number of columns
 
 print('000000000000000000000000000000000000')
-df = df[(df['price'] !=0)]
-grouped = df.groupby('prime_genre').agg({'price': ['mean', 'min', 'max','count','sum']})   # ['mean', 'min', 'max'] 
-print(df.shape[0]) # prints the number of rows
-print(df.shape[1]) # prints the number of columns
+df1 = df[(df['price'] !=0)]
+grouped = df1.groupby('prime_genre').agg({'price': ['mean', 'min', 'max','count','sum']})   # ['mean', 'min', 'max'] 
+print(df1.shape[0]) # prints the number of rows
+print(df1.shape[1]) # prints the number of columns
 
 print(grouped)
 
@@ -44,11 +44,5 @@ gr = expensive.groupby('price').count()
 print(gr)
 
 print('ddddddddddddddddddddddddddddddddddddddd')
-import matplotlib.pyplot as plt
 
-
-two_columns['prime_genre'].value_counts().plot.bar()
-# df['prime_genre'].value_counts().plot.pie()
-plt.title('Pie Chart of Ratings')               # plot charts pie bar line etc...
-# plt.show()
-
+df.info()
